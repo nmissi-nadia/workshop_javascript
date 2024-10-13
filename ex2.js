@@ -1,0 +1,10 @@
+var nbr1 = prompt("Donner le nombre 1 : ");
+var nbr2 = prompt("Donner le nombre 2 : ");
+var resultat = parseInt(nbr1) + parseInt(nbr2);
+alert(nbr1 + "+" + nbr2 + " = " + resultat);
+var resultat = parseInt(nbr1) - parseInt(nbr2);
+alert(nbr1 + "-" + nbr2 + " = " + resultat);
+var resultat = parseInt(nbr1) * parseInt(nbr2);
+alert(nbr1 + "*" + nbr2 + " = " + resultat);
+var resultat = parseInt(nbr1) / parseInt(nbr2);
+alert(nbr1 + "/" + nbr2 + " = " + resultat);

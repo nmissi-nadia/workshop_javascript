@@ -1,0 +1,11 @@
+let x = 10;
+let y = 20,z; 
+document.write("Les deux nombres avant échange :<br>");
+document.write("x = " + x + "<br>");
+document.write("y = " + y + "<br><br>");
+z = x ;
+x = y;
+y = z; 
+document.write("Les deux nombres après échange :<br>");
+document.write("x = " + x + "<br>");
+document.write("y = " + y + "<br>");
